@@ -7,10 +7,8 @@ pdf.add_font("DejaVu", "B", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.tt
 pdf.set_font("DejaVu", "", 12)
 pdf.add_page()
 
-# Заголовок
-pdf.set_font("DejaVu", "B", 14)
-pdf.cell(0, 10, "Гайд: 3 простых фразы, с чего начать", ln=True, align="C")
-pdf.ln(5)
+"Гайд: 3 простых фразы, с чего начать"
+
 
 # Введение
 pdf.set_font("DejaVu", "", 12)
